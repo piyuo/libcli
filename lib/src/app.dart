@@ -146,6 +146,7 @@ Future<void> _initWithSentry(Widget appContent) async {
         // Reduce debug noise in console
         options.debug = false;
         options.enableAppHangTracking = true;
+        options.appHangTimeoutInterval = const Duration(seconds: 20);
         options.diagnosticLevel = kDebugMode ? SentryLevel.warning : SentryLevel.error;
         // Add environment detection
         options.environment = kDebugMode ? 'development' : 'production';
