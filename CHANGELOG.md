@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.8.1](https://github.com/piyuo/flutter-appkit/compare/v3.8.0...v3.8.1) (2026-09-05)
+
+
+### Bug Fixes
+
+* sentry hang detection timeout too short [#297](https://github.com/piyuo/flutter-appkit/issues/297) ([d1f7739](https://github.com/piyuo/flutter-appkit/commit/d1f77397a9713ca1c11645893fa4868423200a1b))
+
 ## [3.8.0](https://github.com/piyuo/flutter-appkit/compare/v3.7.1...v3.8.0) (2026-09-01)
 
 
